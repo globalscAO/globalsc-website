@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Global Services Corporation - Excelência em Multiserviços",
     description:
       "Conectamos empresas a oportunidades estratégicas no mercado angolano.",
-    images: ["https://global-services-corporation.github.io/images/mr-nova-era-da-lideranca/19.jpg"],
+    images: ["/url-globalsc-img.jpeg"],
   },
   icons: {
     icon: "/favicon.ico",

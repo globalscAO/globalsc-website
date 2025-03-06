@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://global-services-corporation.github.io/images/mr-nova-era-da-lideranca/25.jpg",
+        url: "/url-events-img.jpg",
         width: 1200,
         height: 630,
         alt: "Eventos Corporativos - Global Services Corporation",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "Eventos Corporativos | Global Services Corporation",
     description:
       "Amplie seu networking e participe de eventos estratégicos em Angola.",
-    images: ["https://global-services-corporation.github.io/images/mr-nova-era-da-lideranca/25.jpg"],
+    images: ["/url-events-img.jpg"],
   },
   alternates: {
     canonical: "https://globalsc.ao/events",
