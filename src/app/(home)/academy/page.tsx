@@ -3,6 +3,7 @@ import Academy from "./container/Academy";
 
 export const metadata: Metadata = {
   title: "Academia | Global Services Corporation",
+  keywords: "Academia, Global Services Corporation",
   description:
     "A Global Academy oferece cursos e treinamentos exclusivos para profissionais que buscam excelência no mercado angolano.",
   openGraph: {
@@ -36,12 +37,6 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <head>
-        <meta
-          name="keywords"
-          content="treinamentos empresariais, cursos corporativos, desenvolvimento profissional, capacitação Angola, liderança e inovação"
-        />
-      </head>
       <Academy />
     </>
   );

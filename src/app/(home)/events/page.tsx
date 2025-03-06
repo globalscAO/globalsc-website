@@ -16,11 +16,11 @@ export const metadata: Metadata = {
     title: "Eventos Corporativos | Global Services Corporation",
     description:
       "Descubra eventos de alto nível organizados pela Global Services Corporation e expanda sua rede de contatos.",
-    url: "https://globalsc-website.vercel.app/events",
+    url: "https://globalsc.ao/events",
     type: "website",
     images: [
       {
-        url: "https://globalsc-website.vercel.app/url-events-img.jpg",
+        url: "https://globalsc.ao/url-events-img.jpg",
         width: 1200,
         height: 630,
         alt: "Eventos Corporativos - Global Services Corporation",
@@ -33,10 +33,10 @@ export const metadata: Metadata = {
     title: "Eventos Corporativos | Global Services Corporation",
     description:
       "Amplie seu networking e participe de eventos estratégicos em Angola.",
-    images: ["https://globalsc-website.vercel.app/url-events-img.jpg"],
+    images: ["https://globalsc.ao/url-events-img.jpg"],
   },
   alternates: {
-    canonical: "https://globalsc-website.vercel.app/events",
+    canonical: "https://globalsc.ao/events",
   },
 };
 

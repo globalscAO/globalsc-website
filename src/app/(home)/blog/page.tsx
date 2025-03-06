@@ -3,6 +3,7 @@ import Blog from "./container/Blog";
 
 export const metadata: Metadata = {
   title: "Blog | Global Services Corporation",
+  keywords: "Blog, Global Services Corporation",
   description:
     "Acompanhe as últimas novidades, insights e tendências do mercado empresarial angolano no Blog da Global Services Corporation.",
   openGraph: {
@@ -36,12 +37,6 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <head>
-        <meta
-          name="keywords"
-          content="blog empresarial, tendências de negócios, mercado angolano, inovação corporativa, estratégias empresariais"
-        />
-      </head>
       <Blog />
     </>
   );
