@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { IoClose } from "react-icons/io5";
 import { RiMenu3Line } from "react-icons/ri";
@@ -24,46 +25,46 @@ export default function Header() {
         <nav className="hidden lg:flex px-7 py-2 w-full">
           <ul className="flex items-center w-full text-white font-semibold gap-8">
             <li>
-              <a
+              <Link
                 className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-100"
                 href="/">
                 Início
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-100"
                 href="/events">
                 Eventos
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-100"
                 href="/academy">
                 Academia
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-100"
                 href="/blog">
                 Blog
-              </a>
+              </Link>
             </li>
             {/*<li>
-              <a
+              <Link
                 className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-10 w-full"
                 href="/insurance">
                 Seguros
-              </a>
+              </Link>
             </li>*/}
             <li>
-              <a
+              <Link
                 className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-100"
                 href="/contact-us">
                 Contactos
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -93,18 +94,18 @@ export default function Header() {
 
           <ul className="text-white font-semibold flex flex-col gap-6 w-full">
             <li className="w-full flex">
-              <a
+              <Link
                 className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-10 w-full"
                 href="/">
                 Início
-              </a>
+              </Link>
             </li>
             <li className="w-full flex">
-              <a
+              <Link
                 className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-10 w-full"
                 href="/events">
                 Eventos
-              </a>
+              </Link>
             </li>
             <li className="w-full flex">
               <a
@@ -114,19 +115,19 @@ export default function Header() {
               </a>
             </li>
             <li className="w-full flex">
-              <a
+              <Link
                 className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-10 w-full"
                 href="/blog">
                 Blog
-              </a>
+              </Link>
             </li>
 
             {/*<li className="w-full flex">
-              <a
+              <Link
                 className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-10 w-full"
                 href="/insurance">
                 Seguros
-              </a>
+              </Link>
             </li>*/}
             <li className="w-full flex">
               <a
