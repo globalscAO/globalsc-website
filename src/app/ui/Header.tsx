@@ -59,13 +59,6 @@ export default function Header() {
                 Seguros
               </Link>
             </li>*/}
-            <li>
-              <Link
-                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-100"
-                href="/contact-us">
-                Contactos
-              </Link>
-            </li>
           </ul>
         </nav>
 
@@ -83,7 +76,7 @@ export default function Header() {
         </button>
 
         <div
-          className={`fixed top-0 right-0 h-full w-2/3 bg-[#11005A] px-6 py-7 transition-transform duration-300 ${
+          className={`fixed top-0 right-0 h-full w-2/3 bg-[#11005A] px-6 py-7 transition-transform duration-300 z-50 ${
             isSidebarOpen ? "translate-x-0" : "translate-x-full"
           }`}>
           <button
@@ -122,20 +115,18 @@ export default function Header() {
               </Link>
             </li>
 
-            {/*<li className="w-full flex">
-              <Link
-                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-10 w-full"
-                href="/insurance">
-                Seguros
-              </Link>
-            </li>*/}
-            <li className="w-full flex">
-              <a
-                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-100 w-full"
-                href="/contact-us">
-                Contactos
-              </a>
-            </li>
+            {
+            /*
+              <li className="w-full flex">
+                <Link
+                  className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-10 w-full"
+                  href="/insurance">
+                  Seguros
+                </Link>
+              </li>
+            */
+            }
+
             <li className="w-full flex">
               <a
                 href="https://businessafterwork.globalsc.ao"

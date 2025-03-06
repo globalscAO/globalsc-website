@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useState, useEffect, useMemo } from "react";
 import { IoIosSearch } from "react-icons/io";
@@ -12,9 +12,7 @@ const AllEvents: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState<string>("");
   const [filteredEvents, setFilteredEvents] = useState(eventsData);
   const [isFilterOpen, setIsFilterOpen] = useState<boolean>(false);
-  const [selectedFilter, setSelectedFilter] = useState<string | null>(
-    "maisRecente"
-  );
+  const [selectedFilter, setSelectedFilter] = useState<string | null>("maisRecente");
   const [suggestions, setSuggestions] = useState<Event[]>([]);
 
   const fuse = useMemo(() => {
@@ -35,7 +33,7 @@ const AllEvents: React.FC = () => {
 
     if (value) {
       const normalizedTerm = normalizeString(value);
-      const results = fuse.search(normalizedTerm).map((result: { item: any; }) => result.item);
+      const results = fuse.search(normalizedTerm).map((result: { item: any }) => result.item);
       setSuggestions(results);
     } else {
       setSuggestions([]);
@@ -67,7 +65,7 @@ const AllEvents: React.FC = () => {
 
   return (
     <div className="px-24 py-12 max-lg:px-5 max-lg:py-7 flex flex-col gap-10 items-center">
-      <div className=" flex flex-col gap-10 max-w-7xl">
+      <div className="flex flex-col gap-10 max-w-7xl">
         <div className="flex justify-between gap-10 h-9 max-lg:gap-2">
           <div className="w-4/5 bg-[#e7e7e790] rounded-md py-1 px-5 flex justify-between items-center gap-2">
             <input
@@ -116,9 +114,7 @@ const AllEvents: React.FC = () => {
         <div className="pb-20 grid grid-cols-3 max-xl:grid-cols-3 max-lg:grid-cols-1 gap-10 max-lg:px-5">
           {filteredEvents.length > 0 ? (
             filteredEvents.map((event) => (
-              <div
-                key={event.id}
-                className="flex justify-center">
+              <div key={event.id} className="flex justify-center">
                 <PastEventCardVertical
                   imgSrc={event.imgSrc}
                   mediaSrc={event.mediaSrc}
