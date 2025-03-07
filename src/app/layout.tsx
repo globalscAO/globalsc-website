@@ -22,11 +22,11 @@ export const metadata: Metadata = {
     title: "Global Services Corporation - Excelência em Multiserviços",
     description:
       "A Global Services Corporation oferece soluções estratégicas para empresas que buscam inovação e crescimento no mercado angolano.",
-    url: "https://globalsc-website.vercel.app",
+    url: "https://globalsc.ao",
     type: "website",
     images: [
       {
-        url: "https://globalsc-website.vercel.app/url-globalsc-img.jpeg",
+        url: "https://globalsc.ao/url-globalsc-img.jpeg",
         width: 1200,
         height: 630,
         alt: "Global Services Corporation - Excelência em Multiserviços",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Global Services Corporation - Excelência em Multiserviços",
     description:
       "Conectamos empresas a oportunidades estratégicas no mercado angolano.",
-    images: ["https://globalsc-website.vercel.app/url-globalsc-img.jpeg"],
+    images: ["https://globalsc.ao/url-globalsc-img.jpeg"],
   },
   icons: {
     icon: "/favicon.ico",
