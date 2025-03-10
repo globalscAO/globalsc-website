@@ -78,7 +78,7 @@ const BestSolution: React.FC = () => {
             786: {
               slidesPerView: 2,
             },
-            1285: {
+            1024: {
               slidesPerView: 3,
             },
           }}

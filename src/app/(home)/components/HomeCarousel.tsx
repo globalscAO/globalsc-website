@@ -23,7 +23,7 @@ const HomeCarousel: React.FC = () => {
             <h1 className="text-2xl w-2/4 max-lg:w-full text-start max-lg:text-center max-lg:text-sm ">
               A Global Services Corporation tem o prazer de anunciar o primeiro
               evento do ano:{" "}
-              <span className="text-[#72E8A8] font-extrabold">
+              <span className=" font-extrabold">
                 Business After Work – Welcome Together
               </span>
             </h1>
@@ -42,9 +42,9 @@ const HomeCarousel: React.FC = () => {
       title: (
         <h1 className="text-3xl w-3/4 text-center max-lg:text-lg">
           Conectando você às melhores soluções de{" "}
-          <span className="text-[#72E8A8]">proteção</span>, com{" "}
-          <span className="text-[#72E8A8]">segurança</span> e{" "}
-          <span className="text-[#72E8A8]">tranquilidade</span>.
+          <span className="">proteção</span>, com{" "}
+          <span className="">segurança</span> e{" "}
+          <span className="">tranquilidade</span>.
         </h1>
       ),
       description: "Protegendo o que importa, com segurança e confiança.",
@@ -55,8 +55,8 @@ const HomeCarousel: React.FC = () => {
       title: (
         <h1 className="text-3xl w-3/4 text-center max-lg:text-lg">
           Oferecendo suporte emocional com{" "}
-          <span className="text-[#72E8A8]">cuidado</span> e{" "}
-          <span className="text-[#72E8A8]">empatia</span>.
+          <span className="">cuidado</span> e{" "}
+          <span className="">empatia</span>.
         </h1>
       ),
       description: "Apoio que você pode contar em todos os momentos.",
@@ -67,8 +67,8 @@ const HomeCarousel: React.FC = () => {
       title: (
         <h1 className="text-3xl w-3/4 text-center max-lg:text-lg">
           Atendimento 24 horas para sua{" "}
-          <span className="text-[#72E8A8]">conveniência</span> e{" "}
-          <span className="text-[#72E8A8]">tranquilidade</span>.
+          <span className="">conveniência</span> e{" "}
+          <span className="">tranquilidade</span>.
         </h1>
       ),
       description: "Estamos aqui quando você mais precisa.",
@@ -79,8 +79,8 @@ const HomeCarousel: React.FC = () => {
       title: (
         <h1 className="text-3xl w-3/4 text-center max-lg:text-lg">
           Protegendo sua família com{" "}
-          <span className="text-[#72E8A8]">segurança</span> e{" "}
-          <span className="text-[#72E8A8]">amor</span>.
+          <span className="">segurança</span> e{" "}
+          <span className="">amor</span>.
         </h1>
       ),
       description: "Cuidando do que é mais importante para você.",
