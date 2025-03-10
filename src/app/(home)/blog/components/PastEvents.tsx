@@ -84,7 +84,7 @@ const PastEvents: React.FC = () => {
             <div className="max-lg: w-full h-20 max-xl:h-32 bg-gradient-to-t from-[#000000cb] to-transparent absolute bottom-0 left-0 flex justify-center items-center rounded-b-lg z-40">
               <a
                 href="/events"
-                className="bg-[#ff9900cd] hover:bg-white hover:text-[#FF9800] flex items-center justify-center px-5 py-2 gap-2 text-white font-semibold rounded-md transition-colors duration-200">
+                className="bg-[#0056E1cd] hover:bg-white hover:text-[#0056E1] flex items-center justify-center px-5 py-2 gap-2 text-white font-semibold rounded-md transition-colors duration-200">
                 Ver mais <FaAngleDoubleRight />
               </a>
             </div>

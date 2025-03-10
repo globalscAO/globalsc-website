@@ -170,7 +170,7 @@ const HighlightsEvents: React.FC = () => {
           <a
             href="https://businessafterwork.globalsc.ao"
             target="_blank"
-            className="py-2 px-28 bg-[#72E8A8] hover:bg-white hover:text-[#72E8A8] rounded-md w-fit max-lg:w-full font-semibold text-white transition-colors duration-200 flex
+            className="py-2 px-28 bg-[#0056E1] hover:bg-white hover:text-[#0056E1] rounded-md w-fit max-lg:w-full font-semibold text-white transition-colors duration-200 flex
 			 justify-center items-center">
             Participar
           </a>

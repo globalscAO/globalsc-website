@@ -59,7 +59,7 @@ const PastEventCardVertical: React.FC<PastEventCardProps> = ({
 					</div>
 					<button
 						onClick={handleOpenModal}
-						className="text-[#11005A] font-semibold w-fit hover:text-[#FF9800] text-sm"
+						className="text-[#11005A] font-semibold w-fit hover:text-[#0056E1] text-sm cursor-pointer"
 					>
 						Saiba mais...
 					</button>
@@ -130,7 +130,7 @@ const PastEventCardVertical: React.FC<PastEventCardProps> = ({
 
 					<button
 						onClick={handleCloseModal}
-						className="absolute bottom-14 max-lg:bottom-8 w-fit h-fit py-2 px-28 bg-[#FF9800] hover:bg-white hover:text-[#FF9800] hover:border border-[#FF9800] rounded-md font-semibold text-white transition-colors duration-150"
+						className="absolute cursor-pointer bottom-14 max-lg:bottom-8 w-fit h-fit py-2 px-28 bg-[#0056E1] hover:bg-white hover:text-[#0056E1] hover:border border-[#0056E1] rounded-md font-semibold text-white transition-colors duration-150"
 					>
 						Fechar
 					</button>

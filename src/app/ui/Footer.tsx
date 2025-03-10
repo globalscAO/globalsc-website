@@ -104,7 +104,7 @@ const Footer: React.FC = () => {
 					<div className="h-full flex flex-col gap-5 max-lg:items-center max-lg:w-full max-lg:h-fit">
 						<h1>Subscreva à nossa newsletter</h1>
 
-						<form className="flex max-lg:w-full bg-white">
+						<form className="flex max-lg:w-full bg-white rounded-md">
 							<input
 								type="email"
 								placeholder="Insira o seu email..."
@@ -113,7 +113,7 @@ const Footer: React.FC = () => {
 							/>
 							<button
 								type="submit"
-								className="bg-[#017AEF] text-white placeholder:text-sm placeholder:text-[#69676770] py-2 px-3"
+								className="bg-[#0056E1] rounded-r-md text-white placeholder:text-sm placeholder:text-[#69676770] py-2 px-3"
 							>
 								<VscSend />
 							</button>

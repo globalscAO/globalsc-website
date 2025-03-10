@@ -26,35 +26,35 @@ export default function Header() {
           <ul className="flex items-center w-full text-white font-semibold gap-8">
             <li>
               <Link
-                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-100"
+                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#0056E1] transition-colors duration-100"
                 href="/">
                 Início
               </Link>
             </li>
             <li>
               <Link
-                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-100"
+                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#0056E1] transition-colors duration-100"
                 href="/events">
                 Eventos
               </Link>
             </li>
             <li>
               <Link
-                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-100"
+                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#0056E1] transition-colors duration-100"
                 href="/academy">
                 Academia
               </Link>
             </li>
             <li>
               <Link
-                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-100"
+                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#0056E1] transition-colors duration-100"
                 href="/blog">
                 Blog
               </Link>
             </li>
             {/*<li>
               <Link
-                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-10 w-full"
+                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#0056E1] transition-colors duration-10 w-full"
                 href="/insurance">
                 Seguros
               </Link>
@@ -65,7 +65,7 @@ export default function Header() {
         <a
           href="https://mesaredonda.globalsc.ao"
           target="_blank"
-          className="hidden lg:flex text-white font-semibold bg-[#72E8A8] hover:bg-white hover:text-[#72E8A8] py-2 px-6 rounded-md transition-colors duration-200">
+          className="hidden lg:flex text-white font-semibold bg-[#0056E1] hover:bg-white hover:text-[#0056E1] py-2 px-6 rounded-md transition-colors duration-200">
           Participar
         </a>
 
@@ -88,28 +88,28 @@ export default function Header() {
           <ul className="text-white font-semibold flex flex-col gap-6 w-full">
             <li className="w-full flex">
               <Link
-                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-10 w-full"
+                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#0056E1] transition-colors duration-10 w-full"
                 href="/">
                 Início
               </Link>
             </li>
             <li className="w-full flex">
               <Link
-                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-10 w-full"
+                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#0056E1] transition-colors duration-10 w-full"
                 href="/events">
                 Eventos
               </Link>
             </li>
             <li className="w-full flex">
               <a
-                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-100 w-full"
+                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#0056E1] transition-colors duration-100 w-full"
                 href="/academy">
                 Academia
               </a>
             </li>
             <li className="w-full flex">
               <Link
-                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-10 w-full"
+                className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#0056E1] transition-colors duration-10 w-full"
                 href="/blog">
                 Blog
               </Link>
@@ -119,7 +119,7 @@ export default function Header() {
             /*
               <li className="w-full flex">
                 <Link
-                  className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#72E8A8] transition-colors duration-10 w-full"
+                  className="p-2 hover:bg-[#FFffff]/10 rounded cursor-pointer hover:text-[#0056E1] transition-colors duration-10 w-full"
                   href="/insurance">
                   Seguros
                 </Link>
@@ -131,7 +131,7 @@ export default function Header() {
               <a
                 href="https://businessafterwork.globalsc.ao"
                 target="_blank"
-                className="text-white font-semibold bg-[#72E8A8] hover:bg-white hover:text-[#72E8A8] py-2 px-6 rounded-md flex items-center justify-center transition-colors duration-200 w-full">
+                className="text-white font-semibold bg-[#0056E1] hover:bg-white hover:text-[#0056E1] py-2 px-6 rounded-md flex items-center justify-center transition-colors duration-200 w-full">
                 Participar
               </a>
             </li>
