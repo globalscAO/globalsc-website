@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter_Tight } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const interTight = Inter_Tight({
@@ -59,7 +60,11 @@ export default function RootLayout({
           content="width=device-width, initial-scale=1"
         />
       </head>
-      <body className={`${interTight.variable} antialiased`}>{children}</body>
+      <body className={`${interTight.variable} antialiased`}>
+        {children}
+
+        <Analytics />
+      </body>
     </html>
   );
 }
