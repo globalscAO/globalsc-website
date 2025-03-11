@@ -13,22 +13,22 @@ interface Slide {
 const HomeCarousel: React.FC = () => {
   const slides: Slide[] = [
     {
-      src: "https://global-services-corporation.github.io/images/baw-jan-2025/assets/banner-baw.png",
-      alt: "Business After Work 2025 - Welcome Together",
+      src: "https://mesaredonda.globalsc.ao/images/bg-blue.jpg",
+      alt: "Mesa Redonda com CEOs 2025 - Abertura Oficial",
       title: (
         <a
-          href="https://businessafterwork.globalsc.ao"
+          href="https://mesaredonda.globalsc.ao"
           target="_blank">
           <div className="w-full h-full lg:px-44 max-lg:px-10 flex flex-col max-lg:items-center">
             <h1 className="text-2xl w-2/4 max-lg:w-full text-start max-lg:text-center max-lg:text-sm ">
-              A Global Services Corporation tem o prazer de anunciar o primeiro
-              evento do ano:{" "}
+              A Global Services Corporation tem o prazer de anunciar a abertura oficial do
+              evento:{" "}
               <span className=" font-extrabold">
-                Business After Work – Welcome Together
+                Mesa Redonda com CEOs
               </span>
             </h1>
             <p className="font-light max-lg:text-[10px] w-2/4 max-lg:w-full max-lg:text-center">
-              O Welcome Together foi cuidadosamente planejado para proporcionar
+              A Mesa Redonda com CEOs foi cuidadosamente planejado para proporcionar
               um ambiente descontraído e inspirador.
             </p>
           </div>
