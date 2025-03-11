@@ -1,9 +1,11 @@
-"use client"
+"use client";
 
 import BannerLayout from "@/app/ui/Banner/BannerLayout";
-import HighlightsEvents from "../components/HighlightsEvents";
+// import HighlightsEvents from "../components/HighlightsEvents";
 import Partners from "../components/Partners";
 import PastEvents from "../components/PastEvents";
+import SwiperGallery from "@/app/ui/SwiperGallery";
+import { mediaItems } from "@/app/data/mediaItems";
 
 const Blog: React.FC = () => {
   return (
@@ -19,7 +21,10 @@ const Blog: React.FC = () => {
         outros encontros de destaque. Abaixo, você encontrará mais detalhes
         sobre alguns desses eventos:
       </p>
-      <HighlightsEvents />
+      <div className="px-24 py-12">
+        <SwiperGallery media={mediaItems} />
+      </div>
+      {/*<HighlightsEvents />*/}
       <PastEvents />
       <Partners />
     </section>
