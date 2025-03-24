@@ -21,7 +21,7 @@ const Blog: React.FC = () => {
         outros encontros de destaque. Abaixo, você encontrará mais detalhes
         sobre alguns desses eventos:
       </p>
-      <div className="px-24 py-12">
+      <div className="px-24 max-lg:px-8 py-12 w-full flex justify-center">
         <SwiperGallery media={mediaItems} />
       </div>
       {/*<HighlightsEvents />*/}

@@ -13,11 +13,34 @@ export const metadata: Metadata = {
   description:
     "A Global Services Corporation é uma empresa angolana de consultoria e prestação de serviços, conectando negócios a oportunidades estratégicas.",
   keywords: [
-    "consultoria empresarial",
+    "formação angola",
+    "academy angola",
+    "global academy angola",
+    "formação corporativa",
+    "centro de formação em Luanda",
+    "cursos profissionais Luanda",
+    "treinamento empresarial Angola",
+    "capacitação corporativa",
+    "certificação profissional Angola",
+    "workshops empresariais",
+
+    "global services angola",
+    "global services corporation",
     "multiserviços Angola",
+    "consultoria empresarial Angola",
+    "soluções corporativas Luanda",
+    "desenvolvimento profissional Angola",
+    "assessoria estratégica Angola",
+
     "networking corporativo",
-    "parcerias estratégicas",
-    "negócios em Luanda",
+    "eventos empresariais Luanda",
+    "fórum de negócios Angola",
+    "parcerias estratégicas Angola",
+    "conferências corporativas",
+
+    "formação para setor petrolífero",
+    "treinamento para bancos Angola",
+    "capacitação para construtoras",
   ],
   openGraph: {
     title: "Global Services Corporation - Excelência em Multiserviços",
@@ -36,7 +59,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@globalservicescorporation",
+    site: "https://globalsc.ao",
     title: "Global Services Corporation - Excelência em Multiserviços",
     description:
       "Conectamos empresas a oportunidades estratégicas no mercado angolano.",
