@@ -1534,7 +1534,7 @@ Durante a edição, tópicos como inovação, transformação digital, sustentab
   {
     id: 15,
     imgSrc:
-      "https://global-services-corporation.github.io/images/baw-jan-2025/assets/flyer.jpg",
+      "https://media.licdn.com/dms/image/v2/D4D22AQFh-k5mbogg0Q/feedshare-shrink_1280/B4DZaqFeQbHAAo-/0/1746610285335?e=1749686400&v=beta&t=f0QC9QHbedTP4CyyUPM4soGGPY8AaB3C1O4Xk_SjP34",
     mediaSrc: [
       {
         id: 1,
