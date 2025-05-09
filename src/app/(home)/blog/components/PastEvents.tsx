@@ -10,11 +10,11 @@ const PastEvents: React.FC = () => {
 
   return (
     <section
-      className="lg:px-24 max-lg:px-5 max-lg:py-7 flex flex-col mb-10 max-lg:mb-0 items-center">
+      className="py-7 flex flex-col mb-10 max-lg:mb-0 items-center">
       <div className="max-w-7xl max-lg:px-5 max-lg:py-7 max-lg:mb-0 w-full">
         <div className="border-b-4 max-lg:border-b-2 border-[#11005A] mb-6 max-lg:mb-4 pb-2 ">
           <h1 className="font-semibold text-3xl text-[#11005A] max-lg:text-base">
-            Eventos Passados
+            Eventos
           </h1>
         </div>
 

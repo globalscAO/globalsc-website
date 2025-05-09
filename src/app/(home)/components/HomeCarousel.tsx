@@ -2,6 +2,7 @@ import { Autoplay, Navigation } from "swiper/modules";
 import { SwiperSlide, Swiper } from "swiper/react";
 import "swiper/css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import Image from "next/image";
 
 interface Slide {
   src: string;
@@ -13,23 +14,23 @@ interface Slide {
 const HomeCarousel: React.FC = () => {
   const slides: Slide[] = [
     {
-      src: "https://mesaredonda.globalsc.ao/images/bg-blue.jpg",
-      alt: "Mesa Redonda com CEOs 2025 - Abertura Oficial",
+      src: "/bg.jpeg",
+      alt: "FÓRUM SOBRE: O IMPACTO DO SECTOR FINANCEIRO NO CONTEÚDO LOCAL",
       title: (
         <a
-          href="https://mesaredonda.globalsc.ao"
+          href="https://conteudolocal.globalsc.ao"
           target="_blank">
           <div className="w-full h-full lg:px-44 max-lg:px-10 flex flex-col max-lg:items-center">
-            <h1 className="text-2xl w-2/4 max-lg:w-full text-start max-lg:text-center max-lg:text-sm ">
-              A Global Services Corporation tem o prazer de anunciar a abertura oficial do
-              evento:{" "}
+            <h1 className="text-2xl w-3/4 max-lg:w-full text-start max-lg:text-center max-lg:text-sm ">
+              A Global Services Corporation tem o prazer de anunciar o{" "}
               <span className=" font-extrabold">
-                Mesa Redonda com CEOs
+                FÓRUM SOBRE: O IMPACTO DO SECTOR FINANCEIRO NO CONTEÚDO LOCAL
               </span>
             </h1>
-            <p className="font-light max-lg:text-[10px] w-2/4 max-lg:w-full max-lg:text-center">
-              A Mesa Redonda com CEOs foi cuidadosamente planejado para proporcionar
-              um ambiente descontraído e inspirador.
+            <p className="font-light max-lg:text-[10px] w-3/4 max-lg:w-full max-lg:text-center">
+              O Fórum sobre O Impacto do Setor Financeiro no Conteúdo Local é um
+              desdobramento do debate realizado durante a 5ª Plenária da 4ª
+              Edição da Mesa Redonda com CEOs.
             </p>
           </div>
         </a>
@@ -54,8 +55,7 @@ const HomeCarousel: React.FC = () => {
       alt: "Apoio emocional",
       title: (
         <h1 className="text-3xl w-3/4 text-center max-lg:text-lg">
-          Oferecendo suporte emocional com{" "}
-          <span className="">cuidado</span> e{" "}
+          Oferecendo suporte emocional com <span className="">cuidado</span> e{" "}
           <span className="">empatia</span>.
         </h1>
       ),
@@ -66,8 +66,7 @@ const HomeCarousel: React.FC = () => {
       alt: "Atendimento 24h",
       title: (
         <h1 className="text-3xl w-3/4 text-center max-lg:text-lg">
-          Atendimento 24 horas para sua{" "}
-          <span className="">conveniência</span> e{" "}
+          Atendimento 24 horas para sua <span className="">conveniência</span> e{" "}
           <span className="">tranquilidade</span>.
         </h1>
       ),
@@ -78,8 +77,7 @@ const HomeCarousel: React.FC = () => {
       alt: "Segurança familiar",
       title: (
         <h1 className="text-3xl w-3/4 text-center max-lg:text-lg">
-          Protegendo sua família com{" "}
-          <span className="">segurança</span> e{" "}
+          Protegendo sua família com <span className="">segurança</span> e{" "}
           <span className="">amor</span>.
         </h1>
       ),
@@ -92,7 +90,6 @@ const HomeCarousel: React.FC = () => {
       <button className="swiper-button-prev max-lg:hidden left-0 top-1/2">
         <FaChevronLeft className="text-white" />
       </button>{" "}
-
       <Swiper
         autoplay={{
           delay: 4500,
@@ -108,9 +105,11 @@ const HomeCarousel: React.FC = () => {
         className="h-96 relative">
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            <img
+            <Image
               src={slide.src}
               alt={slide.alt}
+              width={1000}
+              height={1000}
               className="w-full h-full object-cover object-top"
             />
             <div className="bg-gradient-to-b from-[#11005A]/80 to-[#11005A]/50 h-full absolute top-0 left-0 w-full justify-center items-center text-white flex flex-col gap-3">
@@ -120,7 +119,6 @@ const HomeCarousel: React.FC = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-
       <button className="swiper-button-next max-lg:hidden right-0 top-1/2">
         <FaChevronRight className="text-white" />
       </button>

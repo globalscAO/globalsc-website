@@ -12,12 +12,12 @@ const Partners: React.FC = () => {
   ];
 
   return (
-    <section className="flex flex-col items-center gap-10 max-lg:px-5 py-10 max-lg:mx-0 rounded-xl lg:mb-10 justify-center lg:h-80 w-full">
+    <section className="flex flex-col items-center gap-10 max-lg:px-5 rounded-xl lg:mb-10 justify-center w-full">
       <p className="text-3xl font-semibold text-[#11005a] max-lg:text-base">
         Parceiros
       </p>
 
-      <div className="h-fit flex flex-col items-center w-full max-w-7xl">
+      <div className="h-fit flex flex-col items-center w-full max-w-5xl">
         <Swiper
           loop={true}
           allowTouchMove={false}

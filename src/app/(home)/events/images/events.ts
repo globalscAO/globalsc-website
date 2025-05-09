@@ -1532,7 +1532,97 @@ Durante a edição, tópicos como inovação, transformação digital, sustentab
     date: new Date("2024-11-28"),
   },
   {
-    id: 15,
+    id: 13,
+    imgSrc:
+      "https://global-services-corporation.github.io/images/baw-jan-2025/assets/flyer.jpg",
+    mediaSrc: [
+      {
+        id: 1,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/baw-jan-2025/1.jpg",
+      },
+      {
+        id: 2,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/baw-jan-2025/2.jpg",
+      },
+      {
+        id: 3,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/baw-jan-2025/3.jpg",
+      },
+      {
+        id: 4,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/baw-jan-2025/4.jpg",
+      },
+      {
+        id: 5,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/baw-jan-2025/5.jpg",
+      },
+      {
+        id: 6,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/baw-jan-2025/6.jpg",
+      },
+      {
+        id: 7,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/baw-jan-2025/7.jpg",
+      },
+      {
+        id: 8,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/baw-jan-2025/8.jpg",
+      },
+      {
+        id: 9,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/baw-jan-2025/9.jpg",
+      },
+      {
+        id: 10,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/baw-jan-2025/10.jpg",
+      },
+      {
+        id: 11,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/baw-jan-2025/11.jpg",
+      },
+      {
+        id: 12,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/baw-jan-2025/12.jpg",
+      },
+      {
+        id: 13,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/baw-jan-2025/13.jpg",
+      },
+      {
+        id: 14,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/baw-jan-2025/14.jpg",
+      },
+      {
+        id: 15,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/baw-jan-2025/15.jpg",
+      },
+      {
+        id: 16,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/baw-jan-2025/16.jpg",
+      },
+    ],
+    title: "BUSINESS AFTER WORK 2025 - WELCOME TOGETHER",
+    description: `A Global Services Corporation teve o prazer de anunciar o primeiro evento do ano: Business After Work – Welcome Together. Este encontro exclusivo foi realizado em 06 de Fevereiro de 2025, marcando o início de um ano repleto de novas oportunidades, conexões valiosas e colaboração estratégica. O Welcome Together foi cuidadosamente planejado para proporcionar um ambiente descontraído e inspirador, onde líderes, profissionais e parceiros poderão fortalecer relacionamentos, trocar ideias inovadoras e explorar novas possibilidades de negócios.`,
+    date: new Date("2025-02-06"),
+  },
+  {
+    id: 14,
     imgSrc:
       "https://media.licdn.com/dms/image/v2/D4D22AQFh-k5mbogg0Q/feedshare-shrink_1280/B4DZaqFeQbHAAo-/0/1746610285335?e=1749686400&v=beta&t=f0QC9QHbedTP4CyyUPM4soGGPY8AaB3C1O4Xk_SjP34",
     mediaSrc: [
@@ -1549,7 +1639,7 @@ Durante a edição, tópicos como inovação, transformação digital, sustentab
     ],
     title: `FÓRUM SOBRE: O IMPACTO DO SECTOR FINANCEIRO NO CONTEÚDO LOCAL`,
     description: `O Fórum sobre O Impacto do Setor Financeiro no Conteúdo Local é um desdobramento do debate realizado durante a 5ª Plenária da 4ª Edição da Mesa Redonda com CEOs. O encontro reuniu alguns dos principais intervenientes da banca e do conteúdo local angolano, tendo como tema: Como a Tecnologia pode Promover a Integração da Cadeia de Valor do Mercado Financeiro e da Indústria de Petróleo e Gás?
-O Fórum sobre o Impacto do Sector Financeiro no Conteúdo Local, será uma oportunidade para discutir, fomentar e dinamizar boas práticas entre o sector financeiro e as empresas do conteúdo local angolano.
+O Fórum sobre o Impacto do Sector Financeiro no Conteúdo Local, será uma oportunidade para discutir, fomentar e dinamizar boas práticas entre o sector financeiro e as empresas do conteúdo local angolano.  Visite o site da site da https://conteudolocal.globalsc.ao para saber mais.
 `,
     date: new Date("2025-05-01"),
   },
