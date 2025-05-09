@@ -1624,6 +1624,183 @@ Durante a edição, tópicos como inovação, transformação digital, sustentab
   {
     id: 14,
     imgSrc:
+      "https://global-services-corporation.github.io/images/seminario-sme-2025/3.jpeg",
+    mediaSrc: [
+      {
+        id: 1,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/seminario-sme-2025/1.jpeg",
+      },
+      {
+        id: 2,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/seminario-sme-2025/2.jpeg",
+      },
+      {
+        id: 3,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/seminario-sme-2025/3.jpeg",
+      },
+      {
+        id: 4,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/seminario-sme-2025/4.jpeg",
+      },
+      {
+        id: 5,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/seminario-sme-2025/5.jpeg",
+      },
+      {
+        id: 6,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/seminario-sme-2025/6.jpeg",
+      },
+      {
+        id: 7,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/seminario-sme-2025/7.jpeg",
+      },
+      {
+        id: 8,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/seminario-sme-2025/8.jpeg",
+      },
+      {
+        id: 9,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/seminario-sme-2025/9.jpeg",
+      },
+      {
+        id: 10,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/seminario-sme-2025/10.jpeg",
+      },
+      {
+        id: 11,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/seminario-sme-2025/11.jpeg",
+      },
+      {
+        id: 12,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/seminario-sme-2025/12.jpeg",
+      },
+      {
+        id: 13,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/seminario-sme-2025/13.jpeg",
+      },
+      {
+        id: 14,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/seminario-sme-2025/14.jpeg",
+      },
+      {
+        id: 15,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/seminario-sme-2025/15.jpeg",
+      },
+      
+    ],
+    title: `Seminário Nacional Sobre Migrações | CO-ORGANIZADOR OFICIAL`,
+    description: `Foi com este espírito, que a Global Services Corporation junto da ENAMI “Escola Nacional de Migração” Co-Organizou o I Seminário Nacional Sobre Migrações.
+
+A Abertura ofícial do evento em representação de SE Director Geral do SME, Dr. José Baptista Jr., foi feita pelo Director Geral Adjunto SE Comissário de Migração, Dr. Tomé João Kuanga. 
+
+Da Global Services Corporation, a apresentação foi feita pelo Dr. Tomás Brito Administrador, que em sua explanação, reafirmou o compromisso da Global Services Corporation em contribuir no desenvolvimento das instituições Angolanas, sendo que este evento faz parte de uma visão contida em seu plano estratégico, com o programa Líder do Futuro.
+
+O Seminário foi enriquecedor e assentou-se em dois eixos temáticos: 
+
+1 - FLUXOS MIGRATÓRIOS E GESTÃO DE FRONTEIRAS;
+2 - INTEGRAÇÃO DOS IMIGRANTES NO CONTEXTO ANGOLANO.
+
+O Seminário contou com a participação de vários órgãos de Defesa e Segurança Nacional, com destaque da ACITE | Academia de Ciências Sociais e Tecnologias, ISCPC Instituto Superior de Ciências Policiais e Criminais, Polícia de
+Guarda Fronteira de Angola, Ministério da Administração do Território e Reforma do Estado, entre outros. 
+
+Destacam-se entre os convidados, instituições de alto nível do mercado internacional:
+
+A Deloitte Angola, foi representada pelo seu PCA Dr. José Barata, e da UCAN Dr. Carlos Rosado de Carvalho, Professor e Jornalista em matérias econômicas.
+
+O Seminário trouxe novos elementos para reflexão e tomada de decisão 
+dos Políticos e dos Responsáveis do referido Orgão Ministerial.
+`,
+    date: new Date("2025-04-05"),
+  },
+  {
+    id: 15,
+    imgSrc:
+      "https://global-services-corporation.github.io/images/feira-empreendedor/gsc-partner.jpeg",
+    mediaSrc: [
+      {
+        id: 1,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/feira-empreendedor/2.jpeg",
+      },
+      {
+        id: 2,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/feira-empreendedor/3.jpeg",
+      },
+      {
+        id: 3,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/feira-empreendedor/4.jpeg",
+      },
+      {
+        id: 4,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/feira-empreendedor/5.jpeg",
+      },
+      {
+        id: 5,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/feira-empreendedor/6.jpeg",
+      },
+      {
+        id: 6,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/feira-empreendedor/7.jpeg",
+      },
+      {
+        id: 7,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/feira-empreendedor/8.jpeg",
+      },
+      {
+        id: 8,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/feira-empreendedor/9.jpeg",
+      },
+      {
+        id: 9,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/feira-empreendedor/10.jpeg",
+      },
+      {
+        id: 10,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/feira-empreendedor/11.jpeg",
+      },
+      {
+        id: 11,
+        type: "image",
+        src: "https://global-services-corporation.github.io/images/feira-empreendedor/12.jpeg",
+      },
+    ],
+    title: `FEIRA DO EMPREENDEDOR DE LUANDA - PARCEIRO OFICIAL`,
+    description: `Foi com grande honra e profundo sentido de patriotismo que a Global Services Corporation participou na co-organização da Feira do Empreendedor de Luanda, realizada de 24 a 27 de Abril.
+A emblemática Baía de Luanda foi o palco de encontro de inúmeros empreendedores, num evento imperdível para todos os que procuram novas oportunidades de negócios, networking e aprendizagem.
+O evento contou com a presença de distintas personalidades do Executivo Angolano, com especial destaque para Sua Excelência o Ministro de Estado para a Coordenação Económica, Dr. José de Lima Massano, que teve a honra de proferir o discurso de abertura oficial. 
+Empreendedores, investidores e profissionais de diversos setores, marcaram igualmente presença, num ambiente de partilha de experiências e promoção de novas parcerias, impulsionando assim a criação de projetos inovadores.
+Na qualidade de anfitrião, Sua Excelência Luís Manuel da Fonseca Nunes, Governador Provincial de Luanda, deu as boas-vindas a todos os participantes e incentivou o investimento contínuo na capital do país.
+Agradecemos, de forma especial, ao Governo da Província de Luanda, pela consideração e pelo convite que muito nos honrou.
+`,
+    date: new Date("2025-05-01"),
+  },
+  {
+    id: 16,
+    imgSrc:
       "https://media.licdn.com/dms/image/v2/D4D22AQFh-k5mbogg0Q/feedshare-shrink_1280/B4DZaqFeQbHAAo-/0/1746610285335?e=1749686400&v=beta&t=f0QC9QHbedTP4CyyUPM4soGGPY8AaB3C1O4Xk_SjP34",
     mediaSrc: [
       {
@@ -1641,6 +1818,6 @@ Durante a edição, tópicos como inovação, transformação digital, sustentab
     description: `O Fórum sobre O Impacto do Setor Financeiro no Conteúdo Local é um desdobramento do debate realizado durante a 5ª Plenária da 4ª Edição da Mesa Redonda com CEOs. O encontro reuniu alguns dos principais intervenientes da banca e do conteúdo local angolano, tendo como tema: Como a Tecnologia pode Promover a Integração da Cadeia de Valor do Mercado Financeiro e da Indústria de Petróleo e Gás?
 O Fórum sobre o Impacto do Sector Financeiro no Conteúdo Local, será uma oportunidade para discutir, fomentar e dinamizar boas práticas entre o sector financeiro e as empresas do conteúdo local angolano.  Visite o site da site da https://conteudolocal.globalsc.ao para saber mais.
 `,
-    date: new Date("2025-05-01"),
+    date: new Date("2025-07-17"),
   },
 ];
