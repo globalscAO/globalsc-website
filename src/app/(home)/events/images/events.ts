@@ -1701,7 +1701,6 @@ Durante a edição, tópicos como inovação, transformação digital, sustentab
         type: "image",
         src: "https://global-services-corporation.github.io/images/seminario-sme-2025/15.jpeg",
       },
-      
     ],
     title: `Seminário Nacional Sobre Migrações | CO-ORGANIZADOR OFICIAL`,
     description: `Foi com este espírito, que a Global Services Corporation junto da ENAMI “Escola Nacional de Migração” Co-Organizou o I Seminário Nacional Sobre Migrações.
@@ -1800,8 +1799,7 @@ Agradecemos, de forma especial, ao Governo da Província de Luanda, pela conside
   },
   {
     id: 16,
-    imgSrc:
-      "https://media.licdn.com/dms/image/v2/D4D22AQFh-k5mbogg0Q/feedshare-shrink_1280/B4DZaqFeQbHAAo-/0/1746610285335?e=1749686400&v=beta&t=f0QC9QHbedTP4CyyUPM4soGGPY8AaB3C1O4Xk_SjP34",
+    imgSrc: "https://conteudolocal.globalsc.ao/plenaria/2.JPG",
     mediaSrc: [
       {
         id: 1,
