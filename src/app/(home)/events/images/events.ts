@@ -1920,11 +1920,6 @@ Agradecemos, de forma especial, ao Governo da Província de Luanda, pela conside
         src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/29.png",
       },
       {
-        id: 30,
-        type: "image",
-        src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/30.png",
-      },
-      {
         id: 31,
         type: "image",
         src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/31.png",
@@ -1958,11 +1953,6 @@ Agradecemos, de forma especial, ao Governo da Província de Luanda, pela conside
         id: 37,
         type: "image",
         src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/37.png",
-      },
-      {
-        id: 38,
-        type: "image",
-        src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/38.png",
       },
       {
         id: 39,
