@@ -1,6 +1,7 @@
 import { SwiperSlide, Swiper } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
+import Image from "next/image";
 
 const Partners: React.FC = () => {
   const cardInfo = [
@@ -49,7 +50,8 @@ const Partners: React.FC = () => {
               key={index}
               className="">
               <div className="w-full flex items-center justify-center h-full">
-                <img
+                <Image
+                  alt="Partner Logo"
                   src={card.img}
                   className="w-32 object-contain my-auto"
                 />

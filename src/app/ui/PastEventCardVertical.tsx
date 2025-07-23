@@ -5,6 +5,7 @@ import { IoIosPlayCircle } from "react-icons/io";
 import { MediaType } from "../types/MediaType";
 import { transformarTextoComLinks } from "../utils/textoEmLinks";
 import SwiperGallery from "./SwiperGallery";
+import Image from "next/image";
 
 interface PastEventCardProps {
   imgSrc: string;
@@ -40,7 +41,7 @@ const PastEventCardVertical: React.FC<PastEventCardProps> = ({
   return (
     <div className="w-full">
       <div className="flex flex-col min-h-96 h-[525px] w-full bg-white rounded-xl shadow-md">
-        <img
+        <Image
           src={imgSrc}
           alt={title}
           className="object-cover w-full rounded-xl h-64"

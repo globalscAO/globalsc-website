@@ -3,6 +3,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
+import Image from "next/image";
 
 interface Props {
   img: string;
@@ -14,7 +15,7 @@ const BestSolution: React.FC = () => {
   const SolutionCard: React.FC<Props> = ({ img, title, description }) => {
     return (
       <div className="flex items-center flex-col text-center bg-[#d8d8d833] shadow-sm shadow-[#0000003f] rounded-2xl p-6 w-72 text-[#11005a] gap-2 transition-all duration-200 h-64 justify-center">
-        <img
+        <Image
           src={img}
           alt={title}
           className="w-10"

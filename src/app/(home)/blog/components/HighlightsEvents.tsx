@@ -2,6 +2,7 @@
 
 import { mediaItems } from "@/app/data/mediaItems";
 import { MediaType } from "@/app/types/MediaType";
+import Image from "next/image";
 import React, { useState } from "react";
 import { IoIosPlayCircle } from "react-icons/io";
 
@@ -28,7 +29,7 @@ const HighlightsEvents: React.FC = () => {
                 Your browser does not support the video tag.
               </video>
             ) : (
-              <img
+              <Image
                 src={selectedMedia.src}
                 alt="Selected"
                 className="w-full h-[450px] max-lg:h-72 object-contain bg-black rounded-xl"
@@ -57,7 +58,7 @@ const HighlightsEvents: React.FC = () => {
                     />
                   </div>
                 ) : (
-                  <img
+                  <Image
                     src={item.src}
                     alt={`Thumbnail ${item.id}`}
                     className="w-full h-full object-cover bg-black rounded-md"

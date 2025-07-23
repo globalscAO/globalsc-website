@@ -3,6 +3,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
+import Image from "next/image";
 
 interface Props {
   title: string;
@@ -39,7 +40,7 @@ const BannerLayout: React.FC<Props> = ({ title, description }) => {
           className="h-full">
           {carousselImages.map((image, index) => (
             <SwiperSlide key={index}>
-              <img
+              <Image
                 src={image}
                 alt="FIB"
                 className="w-full h-full object-cover object-top"

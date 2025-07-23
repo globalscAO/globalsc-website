@@ -1,8 +1,9 @@
-"use client"
+"use client";
 
 import { SwiperSlide, Swiper } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
+import Image from "next/image";
 
 export default function Partners() {
   const cardInfo = [
@@ -47,10 +48,10 @@ export default function Partners() {
           modules={[Autoplay]}
           className="partners relative w-full">
           {cardInfo.map((card, index) => (
-            <SwiperSlide
-              key={index}>
+            <SwiperSlide key={index}>
               <div className="w-full flex items-center justify-center">
-                <img
+                <Image
+                  alt="Partner Logo"
                   src={card.img}
                   className="w-24 object-contain"
                 />

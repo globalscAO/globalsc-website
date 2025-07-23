@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 interface Props {
@@ -26,7 +27,7 @@ const ProductsCard: React.FC<Props> = ({
 
   return (
     <div className="flex flex-col max-lg:w-72 w-80 shadow-md shadow-[#00000040] rounded-3xl">
-      <img
+      <Image
         src={img}
         alt=""
         className="h-64 object-cover w-full rounded-t-3xl"

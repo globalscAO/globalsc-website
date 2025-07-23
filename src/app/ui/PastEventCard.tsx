@@ -4,6 +4,7 @@ import React, { ReactNode, useState } from "react";
 import { IoIosPlayCircle } from "react-icons/io";
 import { MediaType } from "../types/MediaType";
 import { transformarTextoComLinks } from "../utils/textoEmLinks";
+import Image from "next/image";
 
 interface PastEventCardProps {
   imgSrc: string;
@@ -48,7 +49,7 @@ const PastEventCard: React.FC<PastEventCardProps> = ({
   return (
     <div>
       <div className="flex h-64 w-full bg-white rounded-xl shadow-md max-lg:hidden">
-        <img
+        <Image
           src={imgSrc}
           alt={title}
           className="object-cover min-w-72 rounded-l-xl max-xl:w-64"
@@ -93,7 +94,7 @@ const PastEventCard: React.FC<PastEventCardProps> = ({
                     Your browser does not support the video tag.
                   </video>
                 ) : (
-                  <img
+                  <Image
                     src={selectedMedia.src}
                     alt="Selected"
                     className="w-full h-full object-contain max-lg:h-72 bg-black rounded-xl"
@@ -118,7 +119,7 @@ const PastEventCard: React.FC<PastEventCardProps> = ({
                         </span>
                       </div>
                     ) : (
-                      <img
+                      <Image
                         src={item.src}
                         alt={`Thumbnail ${item.id}`}
                         className="w-44 h-full object-cover  rounded-md"

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function AboutUs () {
@@ -25,9 +26,9 @@ export default function AboutUs () {
           </div>
         </div>
 
-        <img
+        <Image
           src="https://global-services-corporation.github.io/images/aboutUs.jpg"
-          alt=""
+          alt="About Us"
           className="rounded-3xl w-5/12 object-cover max-lg:hidden"
         />
       </div>

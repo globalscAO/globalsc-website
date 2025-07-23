@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 interface DetalhesProps {
@@ -15,7 +16,7 @@ const Detalhes: React.FC<DetalhesProps> = ({
     <div className="fixed inset-0 bg-gray-800 bg-opacity-70 flex justify-center items-center z-50">
       <div className="bg-white rounded-2xl shadow-2xl w-4/6 max-lg:w-11/12 lg:h-[80vh] text-[#11005A] flex max-lg:flex-col">
         <div className="lg:w-1/2">
-          <img
+          <Image
             src={product.coverImg}
             alt="Course Cover Img"
             className="w-full object-cover h-full lg:rounded-l-2xl max-lg:rounded-t-2xl"

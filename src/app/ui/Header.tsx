@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { IoClose } from "react-icons/io5";
@@ -15,7 +16,7 @@ export default function Header() {
   return (
     <header className="z-50 h-20 bg-[#11005A] w-full lg:px-24 max-lg:px-8 py-2 flex justify-between items-center shadow-md shadow-[#00000040]">
       <a href="/">
-        <img
+        <Image
           src={"/logo-white.png"}
           alt="GSC Logotipo"
           className="max-lg:w-16 w-14"

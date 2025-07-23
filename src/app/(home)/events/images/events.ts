@@ -1847,31 +1847,13 @@ Agradecemos, de forma especial, ao Governo da Província de Luanda, pela conside
         type: "image",
         src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/9.png",
       },
-      {
-        id: 10,
-        type: "image",
-        src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/10.png",
-      },
-      {
-        id: 11,
-        type: "image",
-        src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/11.png",
-      },
+      
       {
         id: 12,
         type: "image",
         src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/12.png",
       },
-      {
-        id: 13,
-        type: "image",
-        src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/13.png",
-      },
-      {
-        id: 14,
-        type: "image",
-        src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/14.png",
-      },
+  
       {
         id: 15,
         type: "image",

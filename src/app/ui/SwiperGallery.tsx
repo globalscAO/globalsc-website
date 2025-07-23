@@ -8,6 +8,7 @@ import "swiper/css/thumbs";
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { MediaType } from "../types/MediaType";
+import Image from "next/image";
 
 export default function SwiperGallery({ media }: { media: Array<MediaType> }) {
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperClass | null>(null);
@@ -39,7 +40,7 @@ export default function SwiperGallery({ media }: { media: Array<MediaType> }) {
                 Your browser does not support the video tag.
               </video>
             ) : (
-              <img
+              <Image
                 src={item.src}
                 alt="Selected"
                 className="w-full h-[450px] max-lg:h-72 object-contain bg-black rounded-xl"
@@ -86,7 +87,7 @@ export default function SwiperGallery({ media }: { media: Array<MediaType> }) {
                   Your browser does not support the video tag.
                 </video>
               ) : (
-                <img
+                <Image
                   src={item.src}
                   alt="Selected"
                   className="rounded-xl h-full object-cover w-full shadow"
