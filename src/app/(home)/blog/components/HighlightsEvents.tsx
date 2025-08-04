@@ -1,6 +1,6 @@
 "use client";
 
-import { mediaItems } from "@/app/data/mediaItems";
+import { blogMediaItems } from "@/app/data/mediaItems";
 import { MediaType } from "@/app/types/MediaType";
 import Image from "next/image";
 import React, { useState } from "react";
@@ -11,7 +11,9 @@ import "swiper/css/free-mode";
 import "swiper/css/thumbs";
 
 const HighlightsEvents: React.FC = () => {
-  const [selectedMedia, setSelectedMedia] = useState<MediaType>(mediaItems[0]);
+  const [selectedMedia, setSelectedMedia] = useState<MediaType>(
+    blogMediaItems[0]
+  );
 
   return (
     <section className="lg:px-24 max-lg:px-5 max-lg:py-7 mb-10 max-lg:mb-0 flex gap-9 justify-center">
@@ -38,7 +40,7 @@ const HighlightsEvents: React.FC = () => {
           </div>
 
           <div className="media-thumbnails flex mt-4 overflow-x-auto max-w-full">
-            {mediaItems.map((item) => (
+            {blogMediaItems.map((item) => (
               <div
                 key={item.id}
                 onClick={() => setSelectedMedia(item)}

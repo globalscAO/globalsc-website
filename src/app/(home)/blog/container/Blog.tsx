@@ -5,7 +5,7 @@ import BannerLayout from "@/app/ui/Banner/BannerLayout";
 import Partners from "../components/Partners";
 import PastEvents from "../components/PastEvents";
 import SwiperGallery from "@/app/ui/SwiperGallery";
-import { mediaItems } from "@/app/data/mediaItems";
+import { blogMediaItems } from "@/app/data/mediaItems";
 
 const Blog: React.FC = () => {
   return (
@@ -17,7 +17,7 @@ const Blog: React.FC = () => {
 
       <div className="max-w-5xl w-full flex flex-col gap-4 py-8">
         <div className="w-full flex justify-center">
-          <SwiperGallery media={mediaItems} />
+          <SwiperGallery media={blogMediaItems} />
         </div>
 
         <div className="flex flex-col gap-4 max-lg:items-center max-lg:text-center">
@@ -35,7 +35,6 @@ const Blog: React.FC = () => {
             Fórum sobre o Impacto do Sector Financeiro no Conteúdo Local, será
             uma oportunidade para discutir, fomentar e dinamizar boas práticas
             entre o sector financeiro e as empresas do conteúdo local angolano.
-           
           </p>
 
           <a
