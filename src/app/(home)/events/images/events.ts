@@ -1930,21 +1930,6 @@ Agradecemos, de forma especial, ao Governo da Província de Luanda, pela conside
         src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/32.png",
       },
       {
-        id: 33,
-        type: "image",
-        src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/33.png",
-      },
-      {
-        id: 34,
-        type: "image",
-        src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/34.png",
-      },
-      {
-        id: 35,
-        type: "image",
-        src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/35.png",
-      },
-      {
         id: 36,
         type: "image",
         src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/36.png",
@@ -1958,21 +1943,6 @@ Agradecemos, de forma especial, ao Governo da Província de Luanda, pela conside
         id: 39,
         type: "image",
         src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/39.png",
-      },
-      {
-        id: 40,
-        type: "image",
-        src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/40.png",
-      },
-      {
-        id: 41,
-        type: "image",
-        src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/41.png",
-      },
-      {
-        id: 42,
-        type: "image",
-        src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/42.png",
       },
       {
         id: 44,
@@ -2048,16 +2018,6 @@ Agradecemos, de forma especial, ao Governo da Província de Luanda, pela conside
         id: 60,
         type: "image",
         src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/60.png",
-      },
-      {
-        id: 62,
-        type: "image",
-        src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/62.png",
-      },
-      {
-        id: 63,
-        type: "image",
-        src: "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/63.png",
       },
       {
         id: 70,
