@@ -42,7 +42,7 @@ const Blog: React.FC = () => {
             target="_blank"
             className="py-2 px-28 bg-[#c9741f] border border-[#c9741f] hover:bg-white hover:text-[#c9741f] rounded-md w-fit max-lg:w-full font-semibold text-white transition-colors duration-200 flex
 			 justify-center items-center">
-            Participar
+            Ver mais
           </a>
         </div>
 
