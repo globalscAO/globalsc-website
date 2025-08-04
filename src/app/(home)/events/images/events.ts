@@ -1800,7 +1800,7 @@ Agradecemos, de forma especial, ao Governo da Província de Luanda, pela conside
   {
     id: 16,
     imgSrc:
-      "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/24.png",
+      "https://global-services-corporation.github.io/images/conteudo-local-jul-2025/55.png",
     mediaSrc: [
       {
         id: 1,
