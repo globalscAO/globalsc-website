@@ -39,9 +39,11 @@ const PastEventCardVertical: React.FC<PastEventCardProps> = ({
   }
 
   return (
-    <div className="w-full">
-      <div className="flex flex-col min-h-96 h-[525px] w-full bg-white rounded-xl shadow-md">
+    <div className="w-full max-w-sm">
+      <div className="flex flex-col w-full bg-white rounded-xl shadow-md">
         <Image
+         width={1000}
+            height={1000}
           src={imgSrc}
           alt={title}
           className="object-cover w-full rounded-xl h-64"

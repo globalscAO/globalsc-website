@@ -41,6 +41,8 @@ export default function SwiperGallery({ media }: { media: Array<MediaType> }) {
               </video>
             ) : (
               <Image
+               width={1000}
+            height={1000}
                 src={item.src}
                 alt="Selected"
                 className="w-full h-[450px] max-lg:h-72 object-contain bg-black rounded-xl"
@@ -88,6 +90,8 @@ export default function SwiperGallery({ media }: { media: Array<MediaType> }) {
                 </video>
               ) : (
                 <Image
+                 width={1000}
+            height={1000}
                   src={item.src}
                   alt="Selected"
                   className="rounded-xl h-full object-cover w-full shadow"

@@ -15,7 +15,7 @@ const ProductsCard: React.FC<Props> = ({
   title,
   description,
   handleClick,
-  handleClickDetails
+  handleClickDetails,
 }) => {
   function adicionarReticencias(texto: string): string {
     const limite = 350;
@@ -28,6 +28,8 @@ const ProductsCard: React.FC<Props> = ({
   return (
     <div className="flex flex-col max-lg:w-72 w-80 shadow-md shadow-[#00000040] rounded-3xl">
       <Image
+        width={1000}
+        height={1000}
         src={img}
         alt=""
         className="h-64 object-cover w-full rounded-t-3xl"

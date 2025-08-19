@@ -10,6 +10,8 @@ const Footer: React.FC = () => {
       <div className="w-full flex max-lg:flex-col items-center justify-between max-lg:justify-center max-w-7xl">
         <div className="flex flex-col gap-9 text-white w-72 max-lg:items-center max-lg:mb-4">
           <Image
+           width={1000}
+            height={1000}
             src={"/logo-white.png"}
             alt="Logo"
             className="w-24 max-lg:w-32"
@@ -66,31 +68,43 @@ const Footer: React.FC = () => {
 
             <div className="grid grid-cols-3 grid-rows-2 gap-2">
               <Image
+               width={1000}
+            height={1000}
                 src="https://source.unsplash.com/random/1"
                 alt="1"
                 className="bg-white object-cover w-12 h-12"
               />
               <Image
+               width={1000}
+            height={1000}
                 src="https://source.unsplash.com/random/2"
                 alt="2"
                 className="bg-white object-cover w-12 h-12"
               />
               <Image
+               width={1000}
+            height={1000}
                 src="https://source.unsplash.com/random/3"
                 alt="3"
                 className="bg-white object-cover w-12 h-12"
               />
               <Image
+               width={1000}
+            height={1000}
                 src="https://source.unsplash.com/random/4"
                 alt="4"
                 className="bg-white object-cover w-12 h-12"
               />
               <Image
+               width={1000}
+            height={1000}
                 src="https://source.unsplash.com/random/5"
                 alt="5"
                 className="bg-white object-cover w-12 h-12"
               />
               <Image
+               width={1000}
+            height={1000}
                 src="https://source.unsplash.com/random/6"
                 alt="6"
                 className="bg-white object-cover w-12 h-12"

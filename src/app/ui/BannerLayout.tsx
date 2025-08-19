@@ -41,6 +41,8 @@ const BannerLayout: React.FC<Props> = ({ title, description }) => {
           {carousselImages.map((image, index) => (
             <SwiperSlide key={index}>
               <Image
+                width={1000}
+                height={1000}
                 src={image}
                 alt="FIB"
                 className="w-full h-full object-cover object-top"

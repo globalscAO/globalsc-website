@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
 import React, { useState } from "react";
 import { useForm, SubmitHandler, Controller } from "react-hook-form";
 import Select, { SingleValue, StylesConfig } from "react-select";
 import countries from "world-countries";
 import { ToastContainer, toast } from "react-toastify";
-import BannerLayout from "@/app/ui/Banner/BannerLayout";
+import BannerLayout from "@/app/ui/BannerLayout";
 import { api } from "@/app/api/config";
 
 type RegistrationFormInputs = {

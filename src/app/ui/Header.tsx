@@ -17,6 +17,8 @@ export default function Header() {
     <header className="z-50 h-20 bg-[#11005A] w-full lg:px-24 max-lg:px-8 py-2 flex justify-between items-center shadow-md shadow-[#00000040]">
       <a href="/">
         <Image
+         width={1000}
+            height={1000}
           src={"/logo-white.png"}
           alt="GSC Logotipo"
           className="max-lg:w-16 w-14"

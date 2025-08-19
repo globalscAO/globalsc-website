@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-export default function AboutUs () {
+export default function AboutUs() {
   return (
     <section className="lg:p-24 max-lg:p-12 bg-[#11005a] flex justify-center">
       <div className="flex items-center justify-around max-w-7xl">
@@ -27,6 +27,8 @@ export default function AboutUs () {
         </div>
 
         <Image
+          width={1000}
+          height={1000}
           src="https://global-services-corporation.github.io/images/aboutUs.jpg"
           alt="About Us"
           className="rounded-3xl w-5/12 object-cover max-lg:hidden"
@@ -34,5 +36,4 @@ export default function AboutUs () {
       </div>
     </section>
   );
-};
-
+}

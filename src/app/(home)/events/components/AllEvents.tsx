@@ -115,19 +115,18 @@ const AllEvents: React.FC = () => {
           </div>
         </div>
 
-        <div className="pb-20 grid grid-cols-3 max-xl:grid-cols-3 max-lg:grid-cols-1 gap-10 max-lg:px-5">
+        <div className="flex flex-wrap gap-8 w-full">
           {filteredEvents.length > 0 ? (
             filteredEvents.map((event) => (
-              <div
-                key={event.id}
-                className="flex justify-center">
+              
                 <PastEventCardVertical
+                  key={event.id}
                   imgSrc={event.imgSrc}
                   mediaSrc={event.mediaSrc}
                   title={event.title}
                   description={event.description}
                 />
-              </div>
+             
             ))
           ) : (
             <div className="col-span-4 text-center text-gray-500">

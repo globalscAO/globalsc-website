@@ -50,6 +50,8 @@ const PastEventCard: React.FC<PastEventCardProps> = ({
     <div>
       <div className="flex h-64 w-full bg-white rounded-xl shadow-md max-lg:hidden">
         <Image
+         width={1000}
+            height={1000}
           src={imgSrc}
           alt={title}
           className="object-cover min-w-72 rounded-l-xl max-xl:w-64"
@@ -95,6 +97,8 @@ const PastEventCard: React.FC<PastEventCardProps> = ({
                   </video>
                 ) : (
                   <Image
+                   width={1000}
+            height={1000}
                     src={selectedMedia.src}
                     alt="Selected"
                     className="w-full h-full object-contain max-lg:h-72 bg-black rounded-xl"
@@ -120,6 +124,8 @@ const PastEventCard: React.FC<PastEventCardProps> = ({
                       </div>
                     ) : (
                       <Image
+                       width={1000}
+            height={1000}
                         src={item.src}
                         alt={`Thumbnail ${item.id}`}
                         className="w-44 h-full object-cover  rounded-md"

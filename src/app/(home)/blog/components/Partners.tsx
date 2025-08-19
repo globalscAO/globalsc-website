@@ -51,9 +51,11 @@ const Partners: React.FC = () => {
               className="">
               <div className="w-full flex items-center justify-center h-full">
                 <Image
+                  width={1000}
+                  height={1000}
                   alt="Partner Logo"
                   src={card.img}
-                  className="w-32 object-contain my-auto"
+                  className="w-32 h-full object-contain my-auto"
                 />
               </div>
             </SwiperSlide>

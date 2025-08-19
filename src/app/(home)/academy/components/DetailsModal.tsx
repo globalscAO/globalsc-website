@@ -18,6 +18,8 @@ const Detalhes: React.FC<DetalhesProps> = ({
         <div className="lg:w-1/2">
           <Image
             src={product.coverImg}
+            width={1000}
+            height={1000}
             alt="Course Cover Img"
             className="w-full object-cover h-full lg:rounded-l-2xl max-lg:rounded-t-2xl"
           />

@@ -1,6 +1,6 @@
 "use client";
 
-import BannerLayout from "@/app/ui/Banner/BannerLayout";
+import BannerLayout from "@/app/ui/BannerLayout";
 // import HighlightsEvents from "../components/HighlightsEvents";
 import Partners from "../components/Partners";
 import PastEvents from "../components/PastEvents";

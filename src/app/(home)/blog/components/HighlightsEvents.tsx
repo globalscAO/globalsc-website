@@ -32,6 +32,8 @@ const HighlightsEvents: React.FC = () => {
               </video>
             ) : (
               <Image
+                width={1000}
+                height={1000}
                 src={selectedMedia.src}
                 alt="Selected"
                 className="w-full h-[450px] max-lg:h-72 object-contain bg-black rounded-xl"
@@ -61,6 +63,8 @@ const HighlightsEvents: React.FC = () => {
                   </div>
                 ) : (
                   <Image
+                    width={1000}
+                    height={1000}
                     src={item.src}
                     alt={`Thumbnail ${item.id}`}
                     className="w-full h-full object-cover bg-black rounded-md"

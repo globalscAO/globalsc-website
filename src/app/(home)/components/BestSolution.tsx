@@ -18,6 +18,8 @@ const BestSolution: React.FC = () => {
         <Image
           src={img}
           alt={title}
+          width={1000}
+          height={1000}
           className="w-10"
         />
         <div className="flex flex-col gap-2 ">

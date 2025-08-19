@@ -51,6 +51,8 @@ export default function Partners() {
             <SwiperSlide key={index}>
               <div className="w-full flex items-center justify-center">
                 <Image
+                  width={1000}
+                  height={1000}
                   alt="Partner Logo"
                   src={card.img}
                   className="w-24 object-contain"
